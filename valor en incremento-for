@@ -1,0 +1,30 @@
+#include <stdio.h>
+int Numeroinicial, Numerofinal, Numero_incremento, suma=0, i; 
+int main () {
+	 printf ("Bienvenido usuario, ingresar numero inicial\n  ", Numeroinicial); 
+	  scanf ("%d", &Numeroinicial); 
+	  
+        		 printf("Escribir un valor final\n  ", Numerofinal);
+        	 scanf ("%d", &Numerofinal); 
+        	 
+     printf("Por ultimo, ingresar un valor para realizar el incremento de ambos\n  "); 
+     scanf ("%d", &Numero_incremento); 
+        	
+    for (i=0; i<2; i++) {
+    	 
+		 Numero_incremento+=Numeroinicial; 
+		 printf(" El primer valor incrementado da como resultado %d\n", Numero_incremento); 
+}
+    for (i=0; i<2; i++){
+    	
+    Numero_incremento+=Numerofinal; 
+    printf ("El segundo valor da como resultado %d\n", Numero_incremento); 
+    
+	}
+	 for (i=0; i<2;i++){
+	 Numero_incremento++; 
+	 printf("El valor incrementado final da como resultado %d\n", Numero_incremento); 	
+	 }
+	
+}                                                              
+	  
