@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/Mateov57/Numero-en-incremento_for_.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "incremento"]
+	url = https://github.com/Mateov57/Numero-en-incremento_for_.git
+	fetch = +refs/heads/*:refs/remotes/incremento/*
+[remote "main"]
+	url = https://github.com/Mateov57/Numero-en-incremento_for_.git
+	fetch = +refs/heads/*:refs/remotes/main/*
